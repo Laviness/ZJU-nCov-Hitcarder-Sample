@@ -19,7 +19,7 @@ jobs:
             serverchan_key: SERVERCHAN_KEY
     steps:
       - name: Working
-        uses: Laviness/ZJU-nCov-Hitcarder-Sample@main
+        uses: Laviness/zju-ncov-hitcarder@master
         with:
           username: ${{ secrets[matrix.username] }}
           password: ${{ secrets[matrix.password] }}
